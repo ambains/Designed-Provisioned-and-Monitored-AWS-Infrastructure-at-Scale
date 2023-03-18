@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,19114.682,229376.18,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),1 VPC,VPN Connection,0,0,0.00,USD,Working days per month (30)
+My Estimate,US East (N. Virginia),EC2 for web server in AZ1 and AZ2,Amazon EC2 ,0,1524.386,18292.63,USD,"Tenancy (Dedicated Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 2), Enable monitoring (disabled), Advance EC2 instance (t3.medium), Pricing strategy (On-Demand), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),EC2 in application server,Amazon EC2 ,0,1524.386,18292.63,USD,"Tenancy (Dedicated Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 2), Enable monitoring (disabled), Advance EC2 instance (t3.medium), Pricing strategy (On-Demand), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),CloudFront Distribution ,Amazon CloudFront,0,157.38,1888.56,USD,"Data transfer out to internet (75 GB per month), Data transfer out to origin (50 GB per month), Number of requests (HTTPS) (150000000 per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,811.93,9743.16,USD,S3 Standard storage (75 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (5 TB per month), DT Outbound: Amazon CloudFront (5 TB per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,74.83,897.96,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Load Balancer for application server,Application Load Balancer,0,74.83,897.96,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Amazon RDS for SQL server,0,14946.94,179363.28,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (75 GB), Number of nodes (2), Instance type (db.m4.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), License (License included), Database edition (Standard), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
