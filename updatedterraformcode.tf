@@ -4,8 +4,8 @@
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIA3Q76G473RASM377D"
-  secret_key = "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"
+  access_key = "xxx"
+  secret_key = "xxx"
 }
 
 # Define the VPC ID and subnet ID
